@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4827B398194021A600ECFCB7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4827B397194021A600ECFCB7 /* main.m */; };
+		4827B39B194021A600ECFCB7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4827B39A194021A600ECFCB7 /* AppDelegate.m */; };
+		4827B39E194021A600ECFCB7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4827B39D194021A600ECFCB7 /* ViewController.m */; };
+		4827B3A1194021A600ECFCB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4827B39F194021A600ECFCB7 /* Main.storyboard */; };
+		4827B3A3194021A600ECFCB7 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4827B3A2194021A600ECFCB7 /* Images.xcassets */; };
+		485AA349194048C0003FFFBA /* NotificationCenter.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4827B3BE194021D900ECFCB7 /* NotificationCenter.framework */; };
+		485AA34F194048C0003FFFBA /* TodayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 485AA34E194048C0003FFFBA /* TodayViewController.m */; };
+		485AA351194048C0003FFFBA /* MainInterface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 485AA350194048C0003FFFBA /* MainInterface.storyboard */; };
+		485AA354194048C0003FFFBA /* com.yazidazahari.Widgets.Hue-Widget.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 485AA348194048C0003FFFBA /* com.yazidazahari.Widgets.Hue-Widget.appex */; };
+		485AA3711940958F003FFFBA /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 485AA3701940958F003FFFBA /* README.md */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		485AA352194048C0003FFFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4827B38A194021A600ECFCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485AA347194048C0003FFFBA;
+			remoteInfo = "Hue Widget";
+		};
+		485AA355194048C0003FFFBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4827B38A194021A600ECFCB7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 485AA347194048C0003FFFBA;
+			remoteInfo = "Hue Widget";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4827B3D0194021D900ECFCB7 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				485AA354194048C0003FFFBA /* com.yazidazahari.Widgets.Hue-Widget.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		4827B392194021A600ECFCB7 /* Widgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Widgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4827B396194021A600ECFCB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4827B397194021A600ECFCB7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4827B399194021A600ECFCB7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4827B39A194021A600ECFCB7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4827B39C194021A600ECFCB7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4827B39D194021A600ECFCB7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4827B3A0194021A600ECFCB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4827B3A2194021A600ECFCB7 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4827B3BE194021D900ECFCB7 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		4827B3D11940276500ECFCB7 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
+		485AA348194048C0003FFFBA /* com.yazidazahari.Widgets.Hue-Widget.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "com.yazidazahari.Widgets.Hue-Widget.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		485AA34C194048C0003FFFBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		485AA34D194048C0003FFFBA /* TodayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TodayViewController.h; sourceTree = "<group>"; };
+		485AA34E194048C0003FFFBA /* TodayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TodayViewController.m; sourceTree = "<group>"; };
+		485AA350194048C0003FFFBA /* MainInterface.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = MainInterface.storyboard; sourceTree = "<group>"; };
+		485AA3701940958F003FFFBA /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4827B38F194021A600ECFCB7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485AA345194048C0003FFFBA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485AA349194048C0003FFFBA /* NotificationCenter.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4827B389194021A600ECFCB7 = {
+			isa = PBXGroup;
+			children = (
+				485AA3701940958F003FFFBA /* README.md */,
+				4827B394194021A600ECFCB7 /* Widgets */,
+				485AA34A194048C0003FFFBA /* Hue Widget */,
+				4827B3BD194021D900ECFCB7 /* Frameworks */,
+				4827B393194021A600ECFCB7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4827B393194021A600ECFCB7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4827B392194021A600ECFCB7 /* Widgets.app */,
+				485AA348194048C0003FFFBA /* com.yazidazahari.Widgets.Hue-Widget.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4827B394194021A600ECFCB7 /* Widgets */ = {
+			isa = PBXGroup;
+			children = (
+				4827B399194021A600ECFCB7 /* AppDelegate.h */,
+				4827B39A194021A600ECFCB7 /* AppDelegate.m */,
+				4827B39C194021A600ECFCB7 /* ViewController.h */,
+				4827B39D194021A600ECFCB7 /* ViewController.m */,
+				4827B39F194021A600ECFCB7 /* Main.storyboard */,
+				4827B3A2194021A600ECFCB7 /* Images.xcassets */,
+				4827B395194021A600ECFCB7 /* Supporting Files */,
+			);
+			path = Widgets;
+			sourceTree = "<group>";
+		};
+		4827B395194021A600ECFCB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4827B396194021A600ECFCB7 /* Info.plist */,
+				4827B397194021A600ECFCB7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4827B3BD194021D900ECFCB7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4827B3D11940276500ECFCB7 /* CoreBluetooth.framework */,
+				4827B3BE194021D900ECFCB7 /* NotificationCenter.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		485AA34A194048C0003FFFBA /* Hue Widget */ = {
+			isa = PBXGroup;
+			children = (
+				485AA34D194048C0003FFFBA /* TodayViewController.h */,
+				485AA34E194048C0003FFFBA /* TodayViewController.m */,
+				485AA350194048C0003FFFBA /* MainInterface.storyboard */,
+				485AA34B194048C0003FFFBA /* Supporting Files */,
+			);
+			path = "Hue Widget";
+			sourceTree = "<group>";
+		};
+		485AA34B194048C0003FFFBA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				485AA34C194048C0003FFFBA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4827B391194021A600ECFCB7 /* Widgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4827B3B2194021A600ECFCB7 /* Build configuration list for PBXNativeTarget "Widgets" */;
+			buildPhases = (
+				4827B38E194021A600ECFCB7 /* Sources */,
+				4827B38F194021A600ECFCB7 /* Frameworks */,
+				4827B390194021A600ECFCB7 /* Resources */,
+				4827B3D0194021D900ECFCB7 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				485AA353194048C0003FFFBA /* PBXTargetDependency */,
+				485AA356194048C0003FFFBA /* PBXTargetDependency */,
+			);
+			name = Widgets;
+			productName = Widgets;
+			productReference = 4827B392194021A600ECFCB7 /* Widgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		485AA347194048C0003FFFBA /* Hue Widget */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 485AA357194048C0003FFFBA /* Build configuration list for PBXNativeTarget "Hue Widget" */;
+			buildPhases = (
+				485AA344194048C0003FFFBA /* Sources */,
+				485AA345194048C0003FFFBA /* Frameworks */,
+				485AA346194048C0003FFFBA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Hue Widget";
+			productName = "Hue Widget";
+			productReference = 485AA348194048C0003FFFBA /* com.yazidazahari.Widgets.Hue-Widget.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4827B38A194021A600ECFCB7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0600;
+				ORGANIZATIONNAME = "Yazid Azahari";
+				TargetAttributes = {
+					4827B391194021A600ECFCB7 = {
+						CreatedOnToolsVersion = 6.0;
+					};
+					485AA347194048C0003FFFBA = {
+						CreatedOnToolsVersion = 6.0;
+					};
+				};
+			};
+			buildConfigurationList = 4827B38D194021A600ECFCB7 /* Build configuration list for PBXProject "Widgets" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4827B389194021A600ECFCB7;
+			productRefGroup = 4827B393194021A600ECFCB7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4827B391194021A600ECFCB7 /* Widgets */,
+				485AA347194048C0003FFFBA /* Hue Widget */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4827B390194021A600ECFCB7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4827B3A1194021A600ECFCB7 /* Main.storyboard in Resources */,
+				4827B3A3194021A600ECFCB7 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485AA346194048C0003FFFBA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485AA351194048C0003FFFBA /* MainInterface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4827B38E194021A600ECFCB7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4827B39E194021A600ECFCB7 /* ViewController.m in Sources */,
+				4827B39B194021A600ECFCB7 /* AppDelegate.m in Sources */,
+				485AA3711940958F003FFFBA /* README.md in Sources */,
+				4827B398194021A600ECFCB7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		485AA344194048C0003FFFBA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				485AA34F194048C0003FFFBA /* TodayViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		485AA353194048C0003FFFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485AA347194048C0003FFFBA /* Hue Widget */;
+			targetProxy = 485AA352194048C0003FFFBA /* PBXContainerItemProxy */;
+		};
+		485AA356194048C0003FFFBA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 485AA347194048C0003FFFBA /* Hue Widget */;
+			targetProxy = 485AA355194048C0003FFFBA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4827B39F194021A600ECFCB7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4827B3A0194021A600ECFCB7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4827B3B0194021A600ECFCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4827B3B1194021A600ECFCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				METAL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4827B3B3194021A600ECFCB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		4827B3B4194021A600ECFCB7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = Widgets/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		485AA358194048C0003FFFBA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Hue Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = "com.yazidazahari.Widgets.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		485AA359194048C0003FFFBA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Hue Widget/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				METAL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "com.yazidazahari.Widgets.$(TARGET_NAME:rfc1034identifier)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4827B38D194021A600ECFCB7 /* Build configuration list for PBXProject "Widgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4827B3B0194021A600ECFCB7 /* Debug */,
+				4827B3B1194021A600ECFCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4827B3B2194021A600ECFCB7 /* Build configuration list for PBXNativeTarget "Widgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4827B3B3194021A600ECFCB7 /* Debug */,
+				4827B3B4194021A600ECFCB7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		485AA357194048C0003FFFBA /* Build configuration list for PBXNativeTarget "Hue Widget" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				485AA358194048C0003FFFBA /* Debug */,
+				485AA359194048C0003FFFBA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4827B38A194021A600ECFCB7 /* Project object */;
+}
