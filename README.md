@@ -1,6 +1,7 @@
 # Hue Widget
 
 A sample iOS 8 Today View Extension (a.k.a widget) to control Philips Hue lightbulbs.
+![iOS 8 Today View](https://raw.githubusercontent.com/yazid/HueWidget/master/IMG_0007.PNG)
 
 ## Setup
 
